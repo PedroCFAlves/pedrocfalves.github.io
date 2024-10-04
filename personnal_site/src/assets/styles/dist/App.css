@@ -1,0 +1,22 @@
+.teste {
+  display: flex;
+  align-items: center;
+  background-color: aqua;
+  justify-content: space-around;
+  padding-block: 2em;
+  min-height: 100dvh;
+}
+.teste .dummy_border_skelleton {
+  padding: 0 2em 0 2em;
+  border: black;
+}
+.teste .def {
+  background-color: beige;
+  flex: 1;
+  align-self: center;
+  min-height: inherit;
+}
+.teste .abc {
+  flex: 1;
+  min-height: inherit;
+}

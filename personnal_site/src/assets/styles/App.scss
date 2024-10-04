@@ -1,0 +1,31 @@
+.teste{
+    
+    
+    display: flex;
+    //justify-content: space-between; /* Espaça os itens de forma uniforme */
+    align-items: center;
+    background-color: aqua;
+    justify-content: space-around;
+    padding-block: 2em;
+    min-height: 100dvh;
+    //min-width: 100%;
+    //margin: 0;
+    .dummy_border_skelleton{
+        padding:0 2em 0 2em;
+        //max-width: 5%;
+        border: black;
+    }
+    .def{
+        background-color: beige;
+        flex:1;
+        align-self: center;
+        min-height: inherit;
+    }
+    .abc{
+        flex: 1;
+        min-height: inherit; 
+        //width: 50em;
+    }
+}
+
+

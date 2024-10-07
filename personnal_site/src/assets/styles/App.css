@@ -7,7 +7,7 @@
   min-height: 100dvh;
 }
 .teste .dummy_border_skelleton {
-  padding: 0 2em 0 2em;
+  padding: 0 1em 0 1em;
   border: black;
 }
 .teste .def {
@@ -15,8 +15,10 @@
   flex: 1;
   align-self: center;
   min-height: inherit;
+  min-width: 10em;
 }
 .teste .abc {
   flex: 1;
   min-height: inherit;
+  min-width: 10em;
 }/*# sourceMappingURL=App.css.map */

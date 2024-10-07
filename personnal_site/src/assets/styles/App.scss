@@ -1,6 +1,5 @@
 .teste{
     
-    
     display: flex;
     //justify-content: space-between; /* Espaça os itens de forma uniforme */
     align-items: center;
@@ -11,7 +10,7 @@
     //min-width: 100%;
     //margin: 0;
     .dummy_border_skelleton{
-        padding:0 2em 0 2em;
+        padding:0 1em 0 1em;
         //max-width: 5%;
         border: black;
     }
@@ -20,10 +19,19 @@
         flex:1;
         align-self: center;
         min-height: inherit;
+        min-width: 10em;
     }
     .abc{
         flex: 1;
-        min-height: inherit; 
+        max-height: inherit;
+        min-width: inherit; 
+        
+        display: grid;
+        grid-template-rows: 35dvh 65dvh;
+        #bu{
+            justify-content: center;
+            
+        }
         //width: 50em;
     }
 }

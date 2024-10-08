@@ -1,8 +1,10 @@
-
+import Skills from "./SKILLS_SLIDESHOW/Skills";
+import General_Info from "./Generalinfo/General_Info";
 
 function StaticLeftSide(props){
     return(
-        <div>asdfsdfdfgdf</div>
+        <General_Info/>
+        <Skills/>
     )
 }
 

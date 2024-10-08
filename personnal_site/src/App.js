@@ -8,11 +8,14 @@ function App() {
   return (
     <div className="teste">
         <div className='dummy_border_skelleton'> </div>
-        <div className='abc'>
+        <StaticLeftSide/>
+        
+
+        {/*<div className='abc'>
           <button id = "but" type ="button">Fotografia, intro e links(linkedin github)</button>
           <button id = "but2" type='button'>Skills -- meter em baixo ícones das skills como slider?</button>
         </div>
-        <div className='def'>CV com dropdown; em baixo (outra div) com um contacte-me e talvez agendar uma entrevista</div>
+        <div className='def'>CV com collapsed slide bar mas a mostrar primeiramente com as tecnologias abertas; em baixo (outra div) com um contacte-me e talvez agendar uma entrevista</div>*/}
         <div className='dummy_border_skelleton'> </div>
     
     </div>
